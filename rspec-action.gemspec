@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{Adds an "action" method to rspec examples}
   s.description = %q{Adds an "action" method to rspec examples, which is a last "before" in fact }
+  s.required_ruby_version = '>= 2.3'
 
   s.rubyforge_project = "rspec-action"
 
@@ -18,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "rspec", "~> 2.13"
+  s.add_dependency "rspec", ">= 3.0", "<4.0"
   s.add_development_dependency "rake"
 end
 
