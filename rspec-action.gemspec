@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 require "rspec-action/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rspec-action"
+  s.name        = "rspec3-action"
   s.version     = RSpec::Action::VERSION
-  s.authors     = ["Alexander Glushkov"]
-  s.email       = ["cutalion@gmail.com"]
+  s.authors     = ["Alexander Glushkov", "Colin Ewen"]
+  s.email       = ["cutalion@gmail.com", "colin@colinewen.com"]
   s.homepage    = ""
   s.summary     = %q{Adds an "action" method to rspec examples}
   s.description = %q{Adds an "action" method to rspec examples, which is a last "before" in fact }
