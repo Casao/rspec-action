@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "rspec3-action"
   s.version     = RSpec::Action::VERSION
   s.authors     = ["Alexander Glushkov", "Colin Ewen"]
-  s.email       = ["cutalion@gmail.com", "colin@colinewen.com"]
+  s.email       = ["cutalion@gmail.com", "colin@draecas.com"]
   s.homepage    = ""
   s.summary     = %q{Adds an "action" method to rspec examples}
   s.description = %q{Adds an "action" method to rspec examples, which is a last "before" in fact }
