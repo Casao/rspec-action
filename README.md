@@ -1,16 +1,16 @@
 [![Build Status](https://secure.travis-ci.org/cutalion/rspec-action.png)](http://travis-ci.org/#!/cutalion/rspec-action)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/cutalion/rspec-action)
 
-# rspec-action
+# rspec3-action
 
-An extension to rspec, which provides an `action` command to rspec examples
+An extension to rspec, which provides an `action` command to rspec examples. Forked from rspec-action
 
 # Description
 
-rspec-action is an extension to rspec2, which allows you to specify the last before hook.
+rspec-action3 is an extension to rspec3, which allows you to specify the last before hook.
 I named it `action`, because it's quite helpful for me in the controller specs.
 
-*IMPORTANT*  
+*IMPORTANT*
 Use rspec-action 1.2.0 for Rspec 2.13
 
 Use rspec-action 1.1.0 for Rspec 2.12
@@ -53,8 +53,8 @@ end
 
 # Requirements
 
-* [rspec2](https://github.com/rspec/rspec) ~> 2.0
+* [rspec3](https://github.com/rspec/rspec) ~> 3.0
 
 # Installation
 
-  gem install rspec-action
+  gem install rspec-action3
